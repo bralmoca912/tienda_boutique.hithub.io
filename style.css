@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-/***** ENCABEZADO DE LA PÁGINA WEB *****/
+/*************** ENCABEZADO DE LA PÁGINA WEB ***************/
 header {
     width: 100%;
     height: 80px;
@@ -15,7 +15,7 @@ header {
 
 img {
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 
 .h1_titulo_encabezado {
@@ -49,7 +49,23 @@ ul li a:hover {
     cursor: pointer;
 }
 
-/***** PIE DE LA PÁGINA WEB *****/
+/*************** CUERPO DE LA PÁGINA ***************/
+.box {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 40px;
+    margin: 30px;
+}
+
+.box_container {
+    border-radius: 5px;
+    height: 320px;
+    box-shadow: 2px 2px 5px 2px #000;
+    background-color: white;
+}
+
+
+/*************** PIE DE LA PÁGINA WEB ***************/
 footer {
     display: flex;
     align-items: center;
