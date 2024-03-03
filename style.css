@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 /*************** ENCABEZADO DE LA PÁGINA WEB ***************/
@@ -20,7 +21,7 @@ img {
 }
 
 .h1_titulo_encabezado {
-    font-size: 30px;
+    font-size: 29px;
     margin-left: 20px;
     padding: 2px;
     color: white;
@@ -29,13 +30,13 @@ img {
 }
 
 ul {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 ul li {
     display: inline-block;
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 3px;
+    padding-right: 8px;
 }
 
 ul li a {
