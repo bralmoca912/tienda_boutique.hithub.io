@@ -94,6 +94,14 @@ ul li a:hover {
     margin-bottom: 20px;
 }
 
+.h2_titulo_informacion {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.informacion_contacto {
+    margin: 20px;
+}
 
 /*************** PIE DE LA PÁGINA WEB ***************/
 footer {
