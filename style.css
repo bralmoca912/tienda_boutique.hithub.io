@@ -51,6 +51,9 @@ ul li a:hover {
 }
 
 /*************** CUERPO DE LA PÁGINA WEB ***************/
+
+/*************** CUERPO DEL INDEX ***************/
+
 .img_encabezado {
     padding-top: 90px;
 }
@@ -71,6 +74,24 @@ ul li a:hover {
     height: 320px;
     box-shadow: 2px 2px 5px 2px #000;
     background-color: white;
+}
+
+/*************** CUERPO DEL CONTACTO ***************/
+.h2_titulo_preguntas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.h3_pregunta {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.respuesta {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 
